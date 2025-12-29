@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abbas Kinnow Farms</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fafafa;
+    }
+    header {
+      background: linear-gradient(90deg, #f57c00, #ff9800);
+      color: white;
+      padding: 1.2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+      padding: 3.5rem 1rem;
+      background: linear-gradient(180deg, #fff3e0, #ffffff);
+    }
+    .hero h1 {
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      border: 1px solid #eee;
+      padding: 1.5rem;
+      border-radius: 8px;
+      background: #fff;
+    }
+    footer {
+      background: #2e2e2e;
+      color: white;
+      text-align: center;
+      padding: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .whatsapp:hover {
+      background: #1ebe5d;
+    }
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>Abbas Kinnow Farms</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#local">Local Sales</a>
+      <a href="#export">Export</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Premium Pakistani Kinnow Oranges</h1>
+    <p>Fresh, juicy, and naturally grown kinnows sourced directly from our farms in Pakistan.</p>
+    <p style="font-family: 'Noto Nastaliq Urdu', serif; font-size: 1.1rem; margin-top: 1rem;">
+      تازہ، رسیلے اور قدرتی طریقے سے اگائے گئے پاکستانی کینو، براہِ راست ہمارے کھیتوں سے
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Us | ہمارے بارے میں</h2>
+    <p>
+      Abbas Kinnow Farms is a family-owned business dedicated to producing high-quality kinnow oranges.
+      With years of farming experience, we focus on freshness, taste, and sustainable practices.
+    </p>
+    <p style="font-family: 'Noto Nastaliq Urdu', serif;">
+      عباس کینو فارمز ایک خاندانی کاروبار ہے جو اعلیٰ معیار کے پاکستانی کینو پیدا کرتا ہے۔ ہم تازگی، ذائقے اور معیار پر خاص توجہ دیتے ہیں۔
+    </p>
+  </section>
+
+  <section id="local">
+    <h2>Local Sales (Pakistan) | مقامی فروخت</h2>
+    <p>
+      We supply fresh kinnow oranges across local markets in Pakistan.
+    </p>
+    <p style="font-family: 'Noto Nastaliq Urdu', serif;">
+      ہم پاکستان بھر میں تازہ کینو مقامی منڈیوں، فروٹ شاپس اور جوس کارنرز کو فراہم کرتے ہیں۔
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Retail Supply</h3>
+        <p>Ideal for fruit shops, juice corners, and local vendors.</p>
+      </div>
+      <div class="card">
+        <h3>Seasonal Availability</h3>
+        <p>Fresh kinnows available during peak season with consistent quality.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="export">
+    <h2>Export Quality Kinnows | برآمدی معیار</h2>
+    <p>
+      Abbas Kinnow Farms provides premium export-quality kinnows.
+    </p>
+    <p style="font-family: 'Noto Nastaliq Urdu', serif;">
+      ہم برآمد کے لیے اعلیٰ معیار کے کینو فراہم کرتے ہیں جو بین الاقوامی معیار پر پورا اترتے ہیں۔
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Global Markets</h3>
+        <p>Supplying kinnows to international markets.</p>
+      </div>
+      <div class="card">
+        <h3>Quality Control</h3>
+        <p>Strict sorting and hygienic packing.</p>
+      </div>
+      <div class="card">
+        <h3>Bulk Orders</h3>
+        <p>Reliable supply for exporters.</p>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/923000000000" class="whatsapp" target="_blank">Order on WhatsApp</a>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@abbaskinnowfarms.com</p>
+    <p>Phone: +92-XXX-XXXXXXX</p>
+    <p>Location: Pakistan</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abbas Kinnow Farms. All rights reserved.</p>
+  </footer>
+</body>
+</html>
